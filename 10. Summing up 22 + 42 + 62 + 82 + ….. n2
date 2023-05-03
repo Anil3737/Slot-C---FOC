@@ -1,0 +1,16 @@
+# Slot-C---FOC
+#include<stdio.h>
+int main()
+{
+	int n,i,p;
+	int sum=0;
+	printf("Enter the number: ");
+	scanf("%d",&n);
+	for (i =0;i<=n;i=i+2) 
+	{
+	  p=i*i;
+	  sum =sum+p;
+	}
+	printf("%d",sum);
+	return 0;
+}
